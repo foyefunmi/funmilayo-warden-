@@ -9,4 +9,5 @@ wardend tx staking create-validator $HOME/.warden/validator.json \
     --from=wallet \
     --chain-id=buenavista-1 \
     --fees=500uward -y
+    sudo journalctl -u wardend -f
     
